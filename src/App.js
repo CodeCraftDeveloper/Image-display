@@ -7,7 +7,8 @@ function App() {
 
   useEffect(() => {
     const fetchImages = async () => {
-      const app = new Realm.App({ id: "application-0-gscmlfw" }); // Replace with your Realm App ID
+      const app = new Realm.App({ id: "application-0-unsnkvf" }); // Replace with your Realm App ID
+      // application-0-gscmlfw
       const credentials = Realm.Credentials.anonymous();
       try {
         const user = await app.logIn(credentials);
